@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+:focus {
+  box-shadow: 3px 4px 5px black;
+}
+
+body {
+  background-color: rgb(219, 210, 154);
+}
+
+input:focus{
+  box-shadow: 3px 4px 5px black;
+}
+
+.search-container {
+  position:fixed;
+  top: 50%;
+  left: 45%;
+}
+.search-container input,
+.search-container .suggestions {
+ background:transparent;
+ overflow: hidden;
+}
+.search-container input {
+text-align: left;
+font-size: medium;
+}
+.search-container .suggestions {
+  text-align: left;
+  font-size: medium;
+}
+ul li {
+cursor: pointer;
+}
+ul li:hover {
+  background:rgb(145, 131, 131);
+}
